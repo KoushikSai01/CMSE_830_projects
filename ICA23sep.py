@@ -14,7 +14,7 @@ with dataExploration:
     st.header('Dataset: Wisconsin cancer dataset')
     st.text('Found the dataset on Kaggle ')
 
-df_data = pd.read_csv("https://raw.githubusercontent.com/KoushikSai01/CMSE_830_projects/main/ICA23sep.py")
+df_data = pd.read_csv("https://raw.githubusercontent.com/KoushikSai01/CMSE_830_projects/main/data.csv")
 print(df_data)
 #choosing option-1 from the dropdown
 
